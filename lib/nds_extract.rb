@@ -37,7 +37,7 @@ def movies_with_director_key(name, movies_collection)
   array1 = []
   i = 0 
   while movies_collection[i] do 
-    array1[i]= movie_with_director_name(name, movies_collection[col])  
+    array1[i]= movie_with_director_name(name, movies_collection[i])  
     i += 1
   end
   array1
