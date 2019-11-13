@@ -34,8 +34,13 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
-  pp name 
-  pp movies_collection
+  array1 = []
+  i = 0 
+  while movies_collection[i] do 
+    array1[i]= movie_with_director_name(name, movies_collection[col])  
+    i += 1
+  end
+  array1
   
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
